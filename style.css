@@ -1,0 +1,144 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+    a{
+        text-decoration: none;
+    }
+    li{
+        list-style-type: none;
+    }
+/*top*/
+.toppy{
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+    .toppy, .footer, .bottom {
+        color: #f9faf8;
+    }
+
+.header {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+    .top {
+        display: flex;
+        flex-wrap: nowrap;
+       
+        gap: 200px;
+        
+    }
+    .topright img {
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .topleft {
+        padding-left: 200px;
+        padding-bottom: 100px;
+        width: 500px;
+        padding-top: 100px;
+    }
+
+    h3{ 
+        font-size: 48px;
+        font-weight: bolder;
+        margin: 0px;  
+    }
+
+    .button1 {
+        background-color: #3882f6;
+        padding: 10px 30px;
+        border-radius: 8px;
+    }
+
+    .left {
+        font-size: 24px;
+        padding-left: 200px;
+    }
+    .right{
+        display: flex;
+        gap: 16px;
+        padding-right: 200px;
+    }
+
+/*middle*/
+
+    .middle {
+        display: flex;
+        flex-direction: column;
+    }
+        .middleheading{
+            text-align: center;
+        }
+        .middlecontent {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            padding: 100px 200px;
+        }
+        .pic img { 
+            max-width: 200px;
+            max-height: 200px;
+            border-radius: 15px;
+            border-style: solid;
+            border-color: aqua;
+        }
+        .pic {
+            width: 200px;
+        }
+
+/*quote*/
+.quote {
+    background-color: #e5e7eb;
+    padding: 50px 200px;
+    text-align: center;
+}
+    .quotetop{
+        font-size: 36px;
+        font-weight: lighter;
+    }
+    .quotebottom {
+        display: flex;
+        justify-content: flex-end;
+        font-weight: bolder;
+    }
+    
+/*bottom*/
+
+.bottom {
+    background-color: #3882f6;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 100px 200px;
+    border-radius: 12px;
+
+}
+    .bottom h1{
+        margin: 0px;
+    }
+    .bottom p {
+        margin: 0px;
+    }
+
+
+    .button2 {
+        background-color: #3882f6;
+        border-radius: 8px;
+        padding: 10px 30px;
+        color: #e5e7eb;
+        border: 5px solid #e5e7eb;
+        }
+
+/*footer*/
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 25px;
+}
